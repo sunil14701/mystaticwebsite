@@ -82,7 +82,7 @@ main {
   position: fixed;
   top:42.9%;
   left:-0.3%;
-  /* border:1.3px solid black; */
+  border:1.3px solid black;
 }
 
 #facebook-icon{
