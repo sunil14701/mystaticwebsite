@@ -1,0 +1,278 @@
+/* body */
+body {
+  margin-left: 60px;
+  margin-right: 20px;
+}
+
+img {
+  width: 100%;
+}
+
+/* header */
+
+#main-header {
+  margin-top: 60px;
+}
+
+#logo img {
+  width: 210px;
+}
+
+#site-title a {
+  font-size: 1.8rem;
+  font-size: 28px;
+  color: black;
+  text-decoration: none;
+  line-height: 1.25;
+  margin-bottom: none;
+}
+
+#site-title a:hover {
+  color: orange;
+}
+
+#about-site {
+  color: #3c5349;
+}
+#header-image-container {
+  margin-top: 50px;
+}
+
+/* main */
+
+main {
+  display: inline-block;
+  width: 75%;
+}
+
+#blog-header h1 {
+  font-size: 3.8rem;
+  color: #13222c;
+  font-family: sans-serif;
+  width: 80%;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+}
+
+/* author section */
+#author-section {
+  display: inline-block;
+  width: 21%;
+  vertical-align: top;
+  line-height: 2rem;
+  margin-left: 3%;
+  margin-top: -1%;
+}
+
+#author-section img {
+  display: block;
+  height: 60px;
+  width: 60px;
+  color: purple;
+  border-radius: 33%;
+}
+
+#author-section span {
+  display: block;
+}
+
+#views {
+  display: inline-block;
+  width: 30%;
+  margin-bottom: -2px;
+  font-size: 1rem;
+}
+
+#views img {
+  height: 40px;
+  width: 40px;
+  /* border: 2px solid red; */
+}
+
+#views span {
+  display: inline-block;
+  padding-bottom: 2px;
+  font-weight: bolder;
+  margin-left: 2%;
+}
+
+#blog-content {
+  width: 71%;
+  font-size: 1.1rem;
+  line-height: 1.4;
+  word-spacing: 1px;
+  margin-left: 4%;
+
+  display: inline-block;
+}
+
+.h-style {
+  color: darkslategray;
+}
+
+.sources li a {
+  text-decoration: none;
+}
+
+.sources li a:hover {
+  color: black;
+}
+/* main content */
+
+h4.h-style {
+  font-family: monospace;
+  font-size: 18px;
+}
+
+/* was for assignment */
+/* main{
+    border:5px dashed red;
+    border-top-left-radius:50px;
+    border-top-right-radius:50px;
+    border-left:0;
+} */
+
+/* Aside */
+aside {
+  display: inline-block;
+  width: 19%;
+  vertical-align: top;
+  margin-left: 3%;
+  margin-top: 3.5%;
+}
+
+.widget-title {
+  font-size: 1rem;
+  text-align: left;
+  font-family: sans-serif;
+  width: 90%;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 1.3;
+}
+
+.widget {
+  border-top: 4px solid black;
+  /* border:2px solid red; */
+  width: 100%;
+}
+
+.widget input {
+  display: block;
+  background-color: #f7f7f7;
+  margin-bottom: 15px;
+  padding: 4px;
+  color: black;
+  font-size: 1.1rem;
+  margin-top: 7px;
+  border-radius: 3px;
+  width: 92%;
+  border: 1px solid grey;
+}
+
+/* targetting button with type submit */
+button[type="submit"] {
+  font-size: 0.9rem;
+  background-color: black;
+  color: white;
+  padding: 6px 18px;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  margin-top: 6%;
+  margin-bottom: 16%;
+  cursor: pointer;
+}
+
+/*  search section*/
+#search-section label {
+  height: 37.8px;
+  width:36.5px;
+  display: inline-block;
+  vertical-align:middle;
+}
+#search-section label img {
+  height: 100%;
+  width:100%;
+  cursor: pointer;
+  vertical-align:middle;
+  margin-left: -7px;
+  margin-bottom: 3px;
+}
+
+#search-section input {
+  width: 80%;
+  display: inline-block;
+  padding:4px 0 8px 0 ;
+  border-radius: 0px;
+  border:1px solid grey;
+}
+
+#search-div {
+  margin-top: 4%;
+  margin-bottom: 9%;
+}
+
+/* recent post */
+#recent-posts {
+  margin-bottom: 20%;
+}
+
+#recent-posts h4{
+  text-transform: uppercase;
+}
+
+#recent-posts ul li {
+  line-height: 1.4rem;
+  margin-bottom:.4rem;
+}
+
+
+#recent-posts ul li a {
+  text-decoration: none;
+  color: #eb8221;
+}
+#recent-posts ul li a:hover {
+color:black;
+}
+
+#recent-comments ul li {
+  line-height: 1.3rem;
+  margin-bottom:.4rem;
+}
+
+#recent-comments h4{
+  text-transform: uppercase;
+}
+
+#recent-comments{
+  margin-bottom: 20%;
+}
+
+#recent-comments ul li a {
+  color: #eb8221;
+  text-decoration: none;
+}
+#recent-comments ul li a:hover {
+  color:black;
+}
+#recent-comments ul li a span {
+  color: black;
+}
+#categories ul li {
+  line-height: 1.1rem;
+  margin-bottom:.4rem;
+
+}
+
+#categories h4{
+  text-transform: uppercase;
+}
+#categories ul li a {
+  color: #eb8221;
+  text-decoration: none;
+}
+#categories ul li a:hover {
+  color:black;
+}
